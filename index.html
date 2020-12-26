@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <form name = calculator action="">
+    <input type="text" id="input-box" name="input-box" value="" onkeyup="useKeyboard()" autofocus>
+
+    <input type="button" id="oneButton" name="oneButton" value="1" onclick="clickButton(this.value)">
+    <input type="button" id="twoButton" name="twoButton" value="2" onclick="clickButton(this.value)">
+    <input type="button" id="threeButton" name="threeButton" value="3" onclick="clickButton(this.value)">
+    <input type="button" id="fourButton" name="fourButton" value="4" onclick="clickButton(this.value)">
+    <input type="button" id="fiveButton" name="fiveButton" value="5" onclick="clickButton(this.value)">
+    <input type="button" id="sixButton" name="sixButton" value="6" onclick="clickButton(this.value)">
+    <input type="button" id="sevenButton" name="sevenButton" value="7" onclick="clickButton(this.value)">
+    <input type="button" id="eightButton" name="eightButton" value="8" onclick="clickButton(this.value)">
+    <input type="button" id="nineButton" name="nineButton" value="9" onclick="clickButton(this.value)">
+    <input type="button" id="zeroButton" name="zeroButton" value="0" onclick="clickButton(this.value)">
+    <input type="button" id="plus" name="plus" value="+" onclick="clickButton(this.value)">
+    <input type="button" id="minus" name="minus" value="-" onclick="clickButton(this.value)">
+    <input type="button" id="multiply" name="multiply" value="*" onclick="clickButton(this.value)">
+    <input type="button" id="divide" name="divide" value="/" onclick="clickButton(this.value)">
+
+    <input type="button" id="=" name="equals" value="=" onclick="clickIsEqual()">
+    <input type="button" id="c" name="clear" value="c" onclick="clickClear()">
+
+    </form>
+
+<script src="index.js"></script>
+</body>
+</html>
+
